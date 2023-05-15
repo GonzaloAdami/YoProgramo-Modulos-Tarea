@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(24, 24, 24);
+    list-style: none;
+}
+.containerFooter{
+
+color: aliceblue;
+padding-top: 2rem;
+padding-left: 0.8rem;
+left: 0;
+}
+
+.copyright{
+
+    bottom: 0;
+    color: aliceblue;
+  opacity: 0.5;
+}

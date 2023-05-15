@@ -1,0 +1,72 @@
+.container{
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 4rem;
+}
+
+.btn-start{
+    margin-top: 2rem;
+    color: aliceblue;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgba(15, 58, 126, 0.84);
+    box-shadow: 0.5px 0.5px 15px rgba(0, 0, 0, 0.7);
+    transform: anim 2s ease-in-out;
+
+}
+
+.btn-start:hover{
+    background-color: rgb(57, 172, 222);
+    opacity: 1;
+
+}
+@keyframes anim{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.contacto{
+    background-color: rgb(27, 144, 177);
+    border-radius: 20px 20px 20px 20px;
+    width: 20rem;
+    color: aliceblue;
+    padding: 1rem 2rem;
+   margin-top: 3rem;
+   margin-right: 3rem;
+    align-self: flex-end;
+
+
+    
+
+}
+.bodyContacto{
+display: flex;
+}
+
+.contactoLeft{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    max-width: 40rem;
+    word-wrap: break-word;
+    box-sizing: border-box;
+
+}
+
+.bebida{
+   
+    width: 20rem;
+    height: 20rem;
+    margin-top: 3rem;
+ margin-left: 5rem;
+    transition: anim 2s ease-in-out;
+}
+
